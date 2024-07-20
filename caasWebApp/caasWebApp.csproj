@@ -7,7 +7,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="wwwroot\AboutUs.cshtml.cs" />
+    <Compile Include="wwwroot\client.cshtml.cs" />
+    <Compile Include="wwwroot\Index.cshtml.cs" />
+    <Compile Include="wwwroot\Login.cshtml.cs" />
+    <Compile Include="wwwroot\LoginForm.cshtml.cs" />
+    <Compile Include="wwwroot\MyWork.cshtml.cs" />
+    <Compile Include="wwwroot\provider.cshtml.cs" />
+    <Compile Include="wwwroot\SignUp.cshtml.cs" />
+    <Compile Include="wwwroot\Support.cshtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Pages\" />
     <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Shared\_Layout.cshtml.css" />
   </ItemGroup>
 
   <ItemGroup>

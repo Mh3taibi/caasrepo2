@@ -1,6 +1,5 @@
 ﻿@page
-@model LoginModel
-
+@model SignUpModel
 
 <!DOCTYPE html>
 <html lang="en">
@@ -19,6 +18,8 @@
     https://templatemo.com/tm-528-elegance
     -->
     <!-- Additional CSS Files -->
+
+
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
@@ -28,6 +29,10 @@
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
 
     <link rel="stylesheet" href="css/animate.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
     <link rel="stylesheet" href="css/templatemo-style.css">
 
@@ -58,8 +63,7 @@
                             <div class="nav-box navbar-collapse">
                                 <ul class="navigation-menu nav navbar-nav navbars" id="nav">
                                     <li>  <a id="home" asp-page="/Index">Home</a></li>
-                                    <li> <a id="AboutUs" asp-page="/AboutUs">About Us </a></li>
-                                    <li> <a id="Login" asp-page="/LoginForm">Login </a></li>
+                                     <li> <a id="Login" asp-page="/LoginForm">Login </a></li>
                                     <li> <a id="Support" asp-page="/Support">Support </a></li>
 
 
@@ -85,22 +89,21 @@
                         <div class="col-md-8 wide-col-laptop">
                             <div class="title-block animate" data-animate="fadeInUp">
                                 <!-- <span>Services</span> -->
-                                <h2>Glad To Have You</h2>
+                                <h2>Join Us As</h2>
                             </div>
                             <div class="services-section">
                                 <div class="services-list owl-carousel">
-                                    <a class="item animate" data-animate="fadeInUp" ID="Signup" asp-page="/SignUp">
+                                    <a class="item animate" data-animate="fadeInUp" ID="provider" asp-page="/provider">
                                         <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-user-plus" aria-hidden="true"></i></span>
-                                            <h3>Sign Up  </h3>
+                                            <span class="service-icon"><i class="fa fa-code" aria-hidden="true"></i></span>
+                                            <h3>Provider  </h3>
                                             <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
                                         </div>
                                     </a>
-                                    <a class="item animate" data-animate="fadeInUp" Id="Login" asp-page="/LoginForm">
-                                        
+                                    <a class="item animate" data-animate="fadeInUp" ID="client" asp-page="/client">
                                         <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-sign-in" aria-hidden="true"></i></span>
-                                            <h3>Login</h3>
+                                            <span class="service-icon"><i class="fa fa-briefcase" aria-hidden="true"></i></span>
+                                            <h3>Client</h3>
                                             <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
                                         </div>
                                     </a>
@@ -128,17 +131,8 @@
             </ul>
         </div>
     </div>
-    </div>
-    <script type="text/javascript">
-        document.getElementById("Signup").onclick = function () {
-            location.href = "./SignUp.html";
-        };
-    </script>
-    <script type="text/javascript">
-        document.getElementById("Login").onclick = function () {
-            location.href = "./LoginForm.html";
-        };
-    </script>
+     
+    
     <script src="js/jquery.js"></script>
 
     <script src="js/bootstrap.min.js"></script>

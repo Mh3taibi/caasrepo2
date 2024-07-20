@@ -1,5 +1,6 @@
 ﻿@page
-@model SupportModel
+@model LoginFormModel
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -18,6 +19,7 @@
     https://templatemo.com/tm-528-elegance
     -->
     <!-- Additional CSS Files -->
+
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
@@ -27,6 +29,10 @@
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
 
     <link rel="stylesheet" href="css/animate.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
     <link rel="stylesheet" href="css/templatemo-style.css">
 
@@ -57,8 +63,7 @@
                             <div class="nav-box navbar-collapse">
                                 <ul class="navigation-menu nav navbar-nav navbars" id="nav">
                                     <li>  <a id="home" asp-page="/Index">Home</a></li>
-                                    <li> <a id="AboutUs" asp-page="/AboutUs">About Us </a></li>
-                                    <li> <a id="Login" asp-page="/LoginForm">Login </a></li>
+                                     <li> <a id="Login" asp-page="/LoginForm">Login </a></li>
                                     <li> <a id="Support" asp-page="/Support">Support </a></li>
 
 
@@ -75,55 +80,55 @@
 
         <div id="fullpage" class="fullpage-default">
 
+            <div class="section "  >
+                <div >
+                    <div class="login-container">
 
+                        
+                            <div class="services-section">
+                                <div class="services-list3">
 
+                                    <div Id="Login">
+                                        <div class="service-box3">
 
-
-
-            <div class="section animated-row" data-section="slide07">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-7 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <span>Contact</span>
-                                <h2>Get In Touch!</h2>
-                            </div>
-                            <div class="contact-section">
-                                <div class="row">
-                                    <!-- <div class="col-md-6 animate" data-animate="fadeInUp">
-                                        <div class="contact-box">
-                                            <div class="contact-row">
-                                                <i class="fa fa-map-marker"></i> 123 New Street Here, Wonderful City 10220
-                                            </div>
-                                            <div class="contact-row">
-                                                <i class="fa fa-phone"></i> 090 080 0210
-                                            </div>
-                                            <div class="contact-row">
-                                                <i class="fa fa-envelope"></i> info@company.co
-                                            </div>
+                                            <div class=" row" style=" margin-bottom : 10pt;">
+                                            <div class="col-sm-2" id="Titles">
+                                               
+                                                    <p for="username">Username:</p>
+                                            </div>   <div class="col-sm-4" style="  margin-LEFT: 30px !important;">
+                                                <input style="width: 300px;" type="text" id="username" name="username" required>
+                                                </div>
+                                                </div>
+                                            <div class=" row" style=" margin-bottom : 10pt;">
+                                            <div class="col-sm-2" id="Titles">
+                                                    <p for="password">Password:</p>
+                                                    </div>
+                                            <div class="col-sm-4" style="  margin-LEFT: 30px !important;">
+                                                    <input style="width: 300px;" type="password" id="password" name="password" required>
+                                                    </div>
+                                                </div>
+                                            <div class=" row">
+                                                <div class="col-sm-6">
+                                                </div>
+                                                <div class="col-sm-6" style=" margin-left : 10pt;">
+                                                <button style="width: 150px; margin-left : 250px;" id="btnlogin2" class="btn" type="submit">Login</button>
+                                                </div> 
+                                            
                                         </div>
                                     </div>
-                                    <div class="col-md-6 animate" data-animate="fadeInUp">
-                                        <form id="ajax-contact" method="post" action="#">
-                                            <div class="input-field">
-                                                <input type="text" class="form-control" name="name" id="name" required placeholder="Name">
-                                            </div>
-                                            <div class="input-field">
-                                                <input type="email" class="form-control" name="email" id="email" required placeholder="Email">
-                                            </div>
-                                            <div class="input-field">
-                                                <textarea class="form-control" name="message" id="message" required placeholder="Message"></textarea>
-                                            </div>
-                                            <button class="btn" type="submit">Submit</button>
-                                        </form>
-                                        <div id="form-messages" class="mt-3"></div>
-                                    </div> -->
+
+
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    
                 </div>
             </div>
+
+
+           
+
+
         </div>
 
         <div id="social-icons">

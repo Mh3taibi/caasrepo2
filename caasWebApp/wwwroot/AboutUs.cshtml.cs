@@ -1,7 +1,8 @@
+using caasWebApp.Pages;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace caasWebApp.Pages
+namespace caasWebApp
 {
     public class AboutUsModel : PageModel
     {

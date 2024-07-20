@@ -82,7 +82,14 @@ html {
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
-
+.login-container {
+    background-color: rgba(255, 255, 255, 0.2); /* White with 20% opacity */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Space inside the container */
+    margin: 20px auto; /* Center the container and add some vertical space */
+    max-width: 500px; /* Limit the width of the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+}
 a {
     color: #fff;
     text-decoration: none;
